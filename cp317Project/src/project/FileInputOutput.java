@@ -168,23 +168,31 @@ public class FileInputOutput {
     
     // Reading product information from a file and returns a list of Product objects
     private static List<Product> readProductsFromFile(String fileName) throws IOException {
-    	List<Product> products = new ArrayList<>();
+        List<Product> products = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] parts = line.split(", ");
-                int productID = Integer.parseInt(parts[0].trim());
+                if (parts.length < 7) {  // Skips this line if it doesn't contain enough fields
+                    continue;
+                }
+                int productID;
+                if (!parts[0].isEmpty()) { // Checks if the product ID data is not empty
+                    productID = Integer.parseInt(parts[0].trim());
+                } else {
+                    productID = 0;  // Sets a default value for the product ID, which is set to 0
+                }
                 String name = parts[1].trim();
                 String description = parts[2].trim();
-                double price = Double.parseDouble(parts[3].substring(1).trim()); // Assumes prices are prefixed with $
+                double price = Double.parseDouble(parts[3].substring(1).trim()); // Assumes the prices are prefixed with $
                 int quantity = Integer.parseInt(parts[4].trim());
                 char status = parts[5].trim().charAt(0);
                 int supplierID = Integer.parseInt(parts[6].trim());
                 products.add(new Product(productID, name, description, price, quantity, status, supplierID));
-            	}
-        	}
-        	return products;
-    	}
+            }
+        }
+        return products;
+    }
 
    
     // Combining Product and Supplier information to create a list of InventoryItem objects
