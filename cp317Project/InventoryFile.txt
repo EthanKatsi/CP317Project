@@ -1,0 +1,20 @@
+ProductID: 1234, Name: TV, Quantity: 20, Price: $799.90, Status: C, Supplier: Fujitsu
+ProductID: 1234, Name: TV, Quantity: 5, Price: $1499.99, Status: A, Supplier: LG Electronics
+ProductID: 1234, Name: TV, Quantity: 5, Price: $699.70, Status: B, Supplier: Acer
+ProductID: 1234, Name: TV, Quantity: 5, Price: $599.30, Status: B, Supplier: AMD
+ProductID: 1516, Name: Mouse, Quantity: 30, Price: $99.50, Status: A, Supplier: RedPark Ltd.
+ProductID: 1516, Name: Mouse, Quantity: 25, Price: $69.90, Status: C, Supplier: MSI
+ProductID: 1516, Name: Mouse, Quantity: 50, Price: $49.40, Status: B, Supplier: Amazon
+ProductID: 1516, Name: Mouse, Quantity: 20, Price: $69.50, Status: A, Supplier: Intel
+ProductID: 2591, Name: Camera, Quantity: 50, Price: $799.90, Status: B, Supplier: Samsung
+ProductID: 2591, Name: Camera, Quantity: 30, Price: $179.50, Status: C, Supplier: Xerox Inc.
+ProductID: 2591, Name: Camera, Quantity: 10, Price: $499.90, Status: B, Supplier: Acme Corporation
+ProductID: 2591, Name: Camera, Quantity: 50, Price: $449.40, Status: A, Supplier: IBM
+ProductID: 3034, Name: Telephone, Quantity: 40, Price: $299.99, Status: A, Supplier: Panasonic
+ProductID: 3034, Name: Telephone, Quantity: 25, Price: $99.90, Status: A, Supplier: Philips
+ProductID: 3034, Name: Telephone, Quantity: 15, Price: $169.99, Status: A, Supplier: Microsoft
+ProductID: 3034, Name: Telephone, Quantity: 20, Price: $59.50, Status: A, Supplier: Dell
+ProductID: 3374, Name: Laptop, Quantity: 30, Price: $1799.90, Status: A, Supplier: Toshiba
+ProductID: 3374, Name: Laptop, Quantity: 10, Price: $1399.20, Status: B, Supplier: Sharp
+ProductID: 3374, Name: Laptop, Quantity: 20, Price: $1099.10, Status: A, Supplier: Apple
+ProductID: 3374, Name: Laptop, Quantity: 15, Price: $1369.90, Status: A, Supplier: Qualcomm
