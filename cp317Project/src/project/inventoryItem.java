@@ -14,7 +14,7 @@ class InventoryItem extends Product {
  // Polymorphism in InventoryItem class (overrides toString) for custom representation.
  @Override
  public String toString() { 
- 	return String.format("ProductID: %d, Name: %s, Quantity: %d, Price: $%.2f, Status: %c, Supplier: %s", 
-                          getProductID(), getName(), getQuantity(), getPrice(), getStatus(), supplierName);
+	 return String.format("ProductID: %-6d|  Name: %-10s |  Quantity: %-4d|  Price: $%8.2f  |  Status: %-2c |  Supplier: %s", 
+             getProductID(), getName(), getQuantity(), getPrice(), getStatus(), supplierName);
  	}
  }
