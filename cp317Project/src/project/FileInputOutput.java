@@ -1,3 +1,5 @@
+package project;
+
 /*
  * Group-11 Members:
  * "Asvith Kiruba" <Kiru4608@mylaurier.ca>
@@ -6,21 +8,18 @@
  * "Khaled KHALED" <khal8103@mylaurier.ca>
  */
 
-package project;
-
 // Code created by Ethan Katsiroubas and Khaled KHALED
 
 // Import statements for IO operations
-import java.io.BufferedWriter;       // Import BufferedWriter class
-import java.io.FileWriter;           // Import FileWriter class
-import java.io.IOException;          // Import IOException class
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 
 // Import statements for collections and utilities
-import java.util.Comparator;         // Import Comparator class
-import java.util.List;               // Import List interface
-import java.util.Map;                // Import Map interface
-import java.util.stream.Collectors;   // Import Collectors class
-
+import java.util.Comparator;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 // Abstraction in FileInputOutput's main application class through file operations
 public class FileInputOutput {

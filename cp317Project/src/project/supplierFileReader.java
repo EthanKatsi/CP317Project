@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-//Reading supplier information from a file and maps it by supplier ID
+// Reading supplier information from a file and maps it by supplier ID
 class supplierFileReader {
     public static Map<Integer, Supplier> readSuppliersFromFile(String fileName) throws IOException {
         Map<Integer, Supplier> suppliers = new HashMap<>();

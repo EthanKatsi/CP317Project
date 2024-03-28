@@ -23,6 +23,7 @@ class productFileReader {
                 } else {
                     productID = 0;  // Sets a default value for the product ID, which is set to 0
                 }
+
                 String name = parts[1].trim();
                 String description = parts[2].trim();
                 double price = Double.parseDouble(parts[3].substring(1).trim()); // Assumes the prices are prefixed with $
